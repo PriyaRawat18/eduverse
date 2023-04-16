@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Update profile</title>
 
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -70,44 +70,28 @@
     </div>
     <!-- sidebar section ends -->
 
-    <!-- contact section start -->
-    <section class="contact">
-        <div class="row">
-            <div class="image">
-                <img src="./images/contact-img.svg" alt="">
-            </div>
-            <form action="" method="post">
-                <h3>get in touch</h3>
-                <input type="text" placeholder="enter your name" name="name" class="box">
-                <input type="email" placeholder="enter your email" name="email" class="box">
-                <input type="number" placeholder="enter your number" name="number" class="box">
-                <textarea name="msg" class="box" placeholder="enter your message" required cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="inline-btn" name="submit">
+    <!-- Update profile start -->
+    <section class="form-container">
+        <form action="" method="post" enctype="multipart/form-data">
+            <h3>Update</h3>
+            <p>Your name</p>
+            <input type="name" name="name" placeholder="yash gupta" maxlength="100" class="box"> 
+            <p>Your email</p>
+            <input type="email" name="email" placeholder="yash.gupta2361@gmail.com" maxlength="100" class="box"> 
+            <p>old password</p>
+            <input type="password" name="old_pass" placeholder="Enter your old password " maxlength="50" class="box"> 
+            <p>new password</p>
+            <input type="password" name="new_pass" placeholder="Enter your new password " maxlength="50" class="box">
+            <p>Confirm password</p>
+            <input type="password" name="c_pass" placeholder="Confirm yor new password " maxlength="50" class="box">
+            <p>Update pic</p>
+            <input type="file" name="image" accept="image/*"class="box" >
+            <input type="submit" name="submit" value="update profile" class="btn">
 
-            </form>
-        </div>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-phone"></i>
-                <h3>Phone number</h3>
-                <a href="tel:123456789">123-456-789</a>
-                <a href="tel:1112223333">111-222-3333</a>
-            </div>
-            <div class="box">
-                <i class="fas fa-envelope"></i>
-                <h3>email address</h3>
-                <a href="mailto:yash.gupta2361@gmail.com">Yash Gupta</a>
-                <a href="mailto:mathpalharshita45@gmail.com">Harshita Mathpal</a>
-            </div>
-            <div class="box">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>office address</h3>
-                <a href="#">flat no.1,a-1 building,jogeshwari,mumbai,india-400104</a>
-            </div>
-        </div>
+        </form>
     </section>
-    
-    <!-- contact section end -->
+
+    <!-- Update profile end -->
 
     <!-- Footer Section Start -->
     <footer class="footer">

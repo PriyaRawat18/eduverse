@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:ital,wght@0,500;1,400&display=swap');
 :root{
-    --main-color:#8e44ad;
-    --red:#e74c3c;
-    --orange:#f39c12;
-    --white: #fff;
-    --black:#2c3e50;
-    --light-color:#888;
-    --light-bg:#eee;
+    --main-color:#76323F;
+    --red: #b40612;
+    --orange:#c09f80;
+    --white: #f8f8f8;
+    --black:#380238;
+    --light-color:#565656;
+    --light-bg:#dbd8d8;
     --border:1rem solid rgba(0,0,0,.2);
 
 }
