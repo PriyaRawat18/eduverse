@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
 :root{
-   --main-color:#8e44ad;
-   --red:#e74c3c;
-   --oragen:#f39c12;
-   --white:#fff;
-   --black:#2c3e50;
-   --light-color:#888;
-   --light-bg:#eee;
-   --border:.1rem solid rgba(0,0,0,.2);
+   --main-color:#76323F;
+   --red: #b40612;
+   --orange:#c09f80;
+   --white: #f8f8f8;
+   --black:#380238;
+   --light-color:#565656;
+   --light-bg:#dbd8d8;
+   --border:1rem solid rgba(0,0,0,.2);
+
 }
 
 *{
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    margin: 0; padding: 0;
    box-sizing: border-box;
    outline: none; border: none;
@@ -220,7 +221,7 @@ section{
 
 .header .flex .search-form button{
    font-size: 2rem;
-   color: var(--black);
+   /* color: var(--black); */
    cursor: pointer;
    background: none;
 }
