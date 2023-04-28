@@ -6,7 +6,7 @@ if(isset($_COOKIE['tutor_id'])){
    $tutor_id = $_COOKIE['tutor_id'];
 }else{
    $tutor_id = '';
-   header('location:login.php'); //user redirected to login.php page using header() function.
+   header('location:login.php');
 }
 
 $select_contents = $conn->prepare("SELECT * FROM `content` WHERE tutor_id = ?");
@@ -54,8 +54,8 @@ $total_comments = $select_comments->rowCount();
 
       <div class="box">
          <h3>welcome!</h3>
-         <p><?= $fetch_profile['name']; ?></p> <!--welcome message that displays the user's name (retrieved from the $fetch_profile variable)-->
-         <a href="profile.php" class="btn">view profile</a>  <!-- and a button to view their profile.-->
+         <p><?= $fetch_profile['name']; ?></p>
+         <a href="profile.php" class="btn">view profile</a>
       </div>
 
       <div class="box">
@@ -115,15 +115,3 @@ $total_comments = $select_comments->rowCount();
 
 </body>
 </html>
-<!-- 
-A welcome message that displays the user's name (retrieved from the $fetch_profile variable) and a button to view their profile.
-The total number of contents on the site (retrieved from the $total_contents variable) and a button to add new content.
-The total number of playlists on the site (retrieved from the $total_playlists variable) and a button to add a new playlist.
-The total number of likes on the site (retrieved from the $total_likes variable) and a button to view contents.
-The total number of comments on the site (retrieved from the $total_comments variable) and a button to view comments.
-A "quick select" section with two buttons to either login or register for the site. 
-
-
-
-
--->
