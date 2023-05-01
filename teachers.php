@@ -44,7 +44,7 @@ if(isset($_COOKIE['user_id'])){
 
       <div class="box offer">
          <h3>become a tutor</h3>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, magnam!</p>
+         <p>Join our team of skilled tutors and make a difference in students' lives. Apply to become a tutor on our website today!</p>
          <a href="admin/register.php" class="inline-btn">get started</a>
       </div>
 
