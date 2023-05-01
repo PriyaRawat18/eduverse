@@ -41,7 +41,7 @@ if(isset($_COOKIE['user_id'])){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis distinctio, nisi consequatur ad sequi, rem odit fugiat assumenda eligendi iure aut sunt ratione, tempore porro expedita quisquam.</p>
+         <p>Choose us for quality, affordable, and flexible education. Our experienced instructors offer a variety of courses across subjects and levels, designed to help you succeed.</p>
          <a href="courses.html" class="inline-btn">our courses</a>
       </div>
 
